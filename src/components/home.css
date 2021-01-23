@@ -1,0 +1,30 @@
+*{
+  text-align: center;
+  width: 100%;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.textContainer{
+  height: 40px;
+}
+.title{
+  text-align: center;
+  margin: 10px 0px;
+}
+.rockpaperscissors{
+  display: flex;
+  justify-content: space-around;
+}
+.rock, .scissors, .paper{
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 30px 0px;
+}
+.buttonSection{
+  padding: 10px 0px;
+}
+button{
+  height: 50px;
+}
